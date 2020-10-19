@@ -1,0 +1,421 @@
+html ,body{
+    height: 100%;
+    width: 100%;
+}
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 1em;
+    font-family: 'Oxanium', cursive;
+    display: flex;
+    overflow-y: hidden;
+}
+/* common sections */
+ .common-section{
+    display: flex;
+    align-items: center;
+}
+
+body section{
+    min-width:100%;
+    height:100%
+}
+
+
+/* header */
+ .header {
+    padding: 2em 3em;
+}
+ .header .contact .contact-button {
+    margin-right: 14.9em;
+}
+
+.header .contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.orange-button {
+    background-color: #ff7f5c;
+    padding: 0.4em 1.6em;
+    color: white;
+    border: 1px solid #ff7f5c;
+    border-radius: 12px;
+    transition: 200ms ease-in-out;
+    cursor: pointer;
+}
+.orange-button:focus{
+    outline: none;
+}
+
+.orange-button:hover {
+    background-color: transparent;
+    border: 1px solid #ff7f5c;
+    color: #ff7f5c;
+}
+
+/* hero-section */
+.web-mobile-img {
+    padding: 2em 10em;
+}
+
+/* circle-button-1 start*/
+.hero-section>.single-chart {
+    width: 80px;
+    justify-content: space-around;
+}
+
+.circle-bg {
+    fill: none;
+    stroke: #eee;
+    stroke-width: 3.8;
+}
+
+.circle {
+    fill: none;
+    stroke-width: 2.8;
+    stroke-linecap: round;
+    animation: progress 1s ease-out forwards;
+}
+
+@keyframes progress {
+    0% {
+        stroke-dasharray: 0 100;
+    }
+}
+
+.circular-chart.orange .circle {
+    stroke: #ff7f5c;
+}
+
+.small-ind {
+    width: 20px;
+    background: grey;
+    height: 3px;
+    border-radius: 5px;
+    margin-bottom: 0.2em;
+}
+
+/* end */
+.angal {
+    color: #ff7f5c;
+    font-weight: 600;
+}
+
+.orange-black {
+    font-size: 3em;
+    font-weight: 600;
+}
+
+.text {
+    color: #302c35;
+    letter-spacing: 3px;
+}
+
+.hero-section .home-img .fa-arrow-right {
+    margin-right: 3em;
+    font-size: 2.5em;
+}
+
+.hero-section .intro {
+    position: relative;
+}
+
+.hero-section .intro .hero-section-tringle {
+    position: absolute;
+    left: 15em;
+    bottom: -7em;
+}
+
+.tringles {
+    width: 75px;
+    height: 75px;
+}
+
+/* cards-section */
+.cards-section{
+    position: relative;
+}
+.cards-section .tr-2{
+    position: absolute;
+    top: 0em;
+    left: 18em
+}
+.cards-section .ov-4{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.cards-section .cards {
+    background-color: #efedf1;
+    border-radius: 5px;
+    height: 22em;
+    position: relative;
+    cursor: pointer;
+}
+
+.cards .website-card .web-card {
+    width: 78%;
+    position: absolute;
+    right: 0;
+    top: 1.5em;
+    height: 70%;
+}
+
+.cards .website-card .card-title {
+    position: absolute;
+    bottom: 15px;
+    left: 1em;
+    font-weight: 700;
+}
+
+.cards .website-card .mob-card {
+    width: 90%;
+    height: 70%;
+    position: absolute;
+    top: 0;
+    left: 0.5em;
+    padding: 0 1.4em;
+}
+
+.cards .ov-3 {
+    position: absolute;
+    bottom: -70px;
+    right: 20px;
+}
+
+.cards .website-card .software-text {
+    position: absolute;
+    top: 8em;
+    padding: 0 1.4em;
+}
+
+.cards .website-card .soft-card {
+    width: 88%;
+    position: absolute;
+    left: 0;
+}
+
+.cards-section .our-services {
+    position: relative;
+}
+.cards-section .our-services .ov-2 {
+    position: absolute;
+    right: 10em;
+    top: -3em;
+}
+
+/* about section */
+.about-section {
+    position: relative;
+    padding-left: 5em;
+}
+
+.about-section .tringle-tr-4 {
+    position: absolute;
+    bottom: 2em;
+    left: 0;
+    height: 120px;
+}
+.about-section .tr-5{
+    position: absolute;
+    top: 2em;
+    right: -56px;
+}
+
+.about-section .circle-ov-6 {
+    position: absolute;
+    top: -4.5em;
+    left: 14em;
+}
+
+.about-section .circle-ov5 {
+    position: absolute;
+    right: 0;
+    bottom: -3em;
+}
+
+.about-section .totals {
+    margin: 2em;
+}
+
+.about-section .totals .message {
+    letter-spacing: 2px;
+    font-size: 0.8em;
+}
+
+/* our projects section */
+.our-projects-section {
+    position: relative;
+}
+.our-projects-section .scroll-bar{
+    overflow-y: auto;
+    height: 387.78px;
+}
+.our-projects-section .tr-pr-1{
+    position: absolute;
+    top: 2.3em;
+    left: 0em;
+}
+.our-projects-section .tr-pr-3{
+    position: absolute;
+    right: 0em;
+    top: 15em;
+}
+.our-projects-section .tr-pr-2 {
+    position: absolute;
+    bottom: 10em;
+    left: 15em;
+}
+
+.our-projects-section .ov-pr-1 {
+    position: absolute;
+    top: 4em;
+    left: 24em;
+}
+
+.our-projects-section {
+    background-color: #302c35;
+    padding: 6em;
+}
+
+.our-projects-section .global-banking-crm {
+    background-image: url("../img/cover-1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 2em 3em;
+    border-radius: 10px;
+}
+
+.our-projects-section .global-banking-crm .same-height {
+    width: 20em;
+}
+
+.our-projects-section .global-banking-crm .zero-seven {
+    color: black;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.global-banking-crm .same-height .global {
+    font-weight: 600;
+}
+
+/* comment-section */
+.person-comments .person-name {
+    font-weight: 600;
+}
+
+.comment-section {
+    position: relative;
+    padding-left: 7em;
+}
+.common-section .tr-6{
+    position: absolute;
+    left: -5.5em;
+    top: 15em;
+}
+.comment-section .tr-7 {
+    position: absolute;
+    top: 4em;
+    right: 13em;
+}
+.common-section .ov-1{
+    position: absolute;
+    left: 11em;
+    right: 0;
+    bottom: 4em;
+}
+
+/* Contact-us-header */
+.contact-us-header .contacts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em 2em;
+}
+
+/* contact-us-section */
+.contact-us-section {
+    position: relative;
+}
+.contact-us-section .lets-talk, .social-media-contacts{
+    margin-left: 10em;
+}
+.contact-us-section .ov-7 {
+    position: absolute;
+    right: 50%;
+    top: 0;
+}
+.contact-us-section .tr-8{
+    position: absolute;
+    right: 0;
+    top: 13em;
+}
+
+.contact-us-section .social-media-contacts a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1.3em;
+    transition: 200ms ease-in-out;
+}
+.contact-us-section .social-media-contacts a:hover {
+   color: #ff7f5c;
+}
+
+.social-media-contacts .social-media {
+    display: flex;
+    flex-direction: column;
+}
+
+.social-media-contacts .contacts {
+    font-weight: 700;
+}
+
+/* circle button-2 start*/
+.contact-us-section .single-chart-2 {
+
+    width: 80px;
+    justify-content: space-around;
+}
+
+.circle-bg {
+    fill: none;
+    stroke: #eee;
+    stroke-width: 3.8;
+}
+
+.circle {
+    fill: none;
+    stroke-width: 2.8;
+    stroke-linecap: round;
+    animation: progress 1s ease-out forwards;
+}
+
+@keyframes progress {
+    0% {
+        stroke-dasharray: 0 100;
+    }
+}
+
+.circular-chart.orange .circle {
+    stroke: #ff7f5c;
+}
+
+.small-ind {
+    width: 20px;
+    background: grey;
+    height: 3px;
+    border-radius: 5px;
+    margin-bottom: 0.2em;
+}
+/* end */
+
+/* main-footer */
+.main-footer p {
+    font-size: 0.8em;
+}
